@@ -1,0 +1,11 @@
+# Generated dependencies and build output are recreated by npm/Vercel.
+node_modules/
+dist/
+
+# Local Vercel project settings
+.vercel/
+
+# Local environment files
+.env
+.env.*
+!.env.example
