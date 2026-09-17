@@ -1,8 +1,0 @@
-export const demoSchemeProblems = [
-  ...['Heavy rain destroyed my tomato crop.', 'My crop was damaged by hailstorm.', 'Flooding ruined my wheat field.', 'I lost most of my crop because of drought.', 'I want information about crop insurance.', 'My insured crop has been damaged by a weather event.'].map(input => ({ input, expected: 'PMFBY' })),
-  ...['I want information about farmer income support.', 'Is there financial support available for farmers?', 'I want to know about farmer income assistance.', 'I need information about PM Kisan.'].map(input => ({ input, expected: 'PM-KISAN' })),
-  ...['I cannot find buyers for my tomatoes.', 'Nobody is buying my produce.', 'I am getting a very low price for my wheat.', 'How can I access better agricultural markets?', 'Local traders are offering me a poor price.', 'I want better price discovery for my crop.'].map(input => ({ input, expected: 'e-NAM' })),
-  ...['I want to form an FPO.', 'Our farmer group wants to register an FPO.', 'I need support for strengthening our FPO.', 'How can our farmer organisation get support?'].map(input => ({ input, expected: '10,000 FPO Scheme' })),
-  ...['I have a storage issue.', "I don't have proper storage for my crops.", 'I need a warehouse for my produce.', 'My village needs a cold storage facility.', 'I need post-harvest infrastructure.', 'Our FPO needs a warehouse.', 'We need storage for harvested vegetables.', 'Where can we store our agricultural produce?'].map(input => ({ input, expected: 'Agriculture Infrastructure Fund' })),
-];
-export const negativeSchemeProblems = ['I need storage for my personal files.', 'I need insurance for my car.', 'I want to buy a mobile phone.'];

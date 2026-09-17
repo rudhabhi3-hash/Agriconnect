@@ -1,3 +1,0 @@
-import { NavLink } from 'react-router-dom';
-const links = [['▪', 'Dashboard', '/farmer'], ['⌁', 'Demand Forecast', '/forecast'], ['⇄', 'Reverse Mandi', '/reverse-mandi'], ['⊞', 'FPO Aggregator', '/fpo-aggregation'], ['✦', 'AI Decision Engine', '/decision-engine'], ['⌖', 'Logistics', '/logistics'], ['▤', 'Government Schemes', '/schemes'], ['✓', 'Final Report', '/report'], ['◉', 'Impact', '/impact']];
-export default function Sidebar() { return <aside><div className="role">FARMER / FPO<br /><b>Command centre</b></div>{links.map(([icon, label, to]) => <NavLink key={to} to={to}><i>{icon}</i>{label}</NavLink>)}<div className="side">PROTOTYPE AI<span>Transparent deterministic recommendations.</span></div></aside>; }

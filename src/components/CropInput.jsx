@@ -1,2 +1,0 @@
-import { cropInputFields } from '../data/crops';
-export default function CropInput({ state, setState }) { return <div className="fields">{cropInputFields.map(([label, key]) => <label key={key}>{label}<input value={state[key]} onChange={event => setState({ ...state, [key]: event.target.value })} /></label>)}<label>Harvest date<input type="date" value={state.harvestDate || ''} onChange={event => setState({ ...state, harvestDate: event.target.value })} /></label></div>; }

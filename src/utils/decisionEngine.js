@@ -1,2 +1,0 @@
-import { getCropForecast } from '../data/crops.js';
-export function getRecommendation(formData) { const forecast = getCropForecast(formData.crop); const net = Math.max(0, forecast.price - forecast.logistics); return { crop: formData.crop, market: formData.location, dispatch: formData.harvestDate || '14 September', price: `₹${forecast.price}/kg`, logistics: `₹${forecast.logistics}/kg`, net: `₹${net}/kg`, confidence: `${forecast.confidence}%`, available: forecast.demand > 0 }; }

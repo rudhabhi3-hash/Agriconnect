@@ -1,1 +1,0 @@
-.recommendation-list{background:#fff}.recommendation-list .recommendation-card+.recommendation-card{border-top:1px solid var(--line)}.recommendation-card{min-height:0}.detected-intents{margin:10px 0 0;color:#5b7558;font-size:11px;line-height:1.55}.no-match{min-height:240px}@media(max-width:850px){.recommendation-list{grid-row:2}.recommendation-card{padding:24px}}
