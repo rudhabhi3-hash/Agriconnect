@@ -1,0 +1,1 @@
+export default function SchemeCard({ scheme }) { return <article><label>POTENTIALLY RELEVANT</label><h2>{scheme.name}</h2><h4>{scheme.category}</h4><p>{scheme.description}</p><small>Explore the official portal for eligibility and details.</small><a target="_blank" rel="noreferrer" href={scheme.officialUrl}>View official details ↗</a></article>; }

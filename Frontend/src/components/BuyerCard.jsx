@@ -1,0 +1,1 @@
+export default function BuyerCard({ requirement }) { return <section className="demand"><div><label>BUYER DEMAND</label><h2>{requirement.quantity} <em>{requirement.crop}</em></h2><p>{requirement.quality} · {requirement.destination} · required within 3 days</p></div><b>ORDER READY</b></section>; }

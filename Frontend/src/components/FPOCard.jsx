@@ -1,0 +1,1 @@
+export default function FPOCard({ fpo, index, aggregation = false }) { const [name, quantity, distance, location] = fpo; return <div className="fpo"><i>{aggregation ? index + 1 : '🌾'}</i><b>{name}<small>{location} · {aggregation ? `${distance} away` : 'Grade A'}</small></b><strong>{quantity}{aggregation && <small>Available</small>}</strong></div>; }
